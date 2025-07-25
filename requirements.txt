@@ -5,3 +5,21 @@ requests
 sqlparse
 urllib3
 django-cors-headers
+
+
+# python3 -m venv venv
+# source venv/bin/activate
+# pip install -r requirements.txt
+# python manage.py migrate
+# python manage.py runserver
+
+# http://127.0.0.1:8000/api/register/
+
+# Admin Captain
+# 10:39 PM
+# curl --location 'http://127.0.0.1:8000/api/login/?username=Gauri1&password=Pass%40123' \
+# --form 'username="Gauri1"' \
+# --form 'password="Pass@123"'
+# curl --location 'http://127.0.0.1:8000/api/register/' \
+# --form 'username="Gauri1"' \
+#  --form 'password="Pass@123"'
